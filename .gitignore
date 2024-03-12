@@ -2,3 +2,5 @@ node_modules/
 # .firebase/
 # .firebaserc
 # firebase.json
+google-cloud-sdk
+gsutil version -l
