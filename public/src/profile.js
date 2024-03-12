@@ -56,7 +56,7 @@ if (currentUser) {
   let email = currentUser.email;
   let username = currentUser.username;
   let phone = currentUser.phone;
-  let payid = phone + "@Apna Paisa";
+  let payid = phone + "@apnapaisa";
 
   document.getElementById("name").innerText = name;
   document.getElementById("email").innerText = email;
