@@ -34,13 +34,15 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-analytics.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC_xmkI67ZokC5S3bs_I4Wn1ZHL9qbsy6E",
-  authDomain: "Apna Paisa-b93d2.firebaseapp.com",
-  projectId: "Apna Paisa-b93d2",
-  storageBucket: "Apna Paisa-b93d2.appspot.com",
-  messagingSenderId: "894989632635",
-  appId: "1:894989632635:web:a14b1f884f00e60bd20ede",
-  measurementId: "G-GPV0QHPX2T",
+  apiKey: "AIzaSyD3WBzl-pfLtwhzkmP8x2O6-3OLx8luQoQ",
+  authDomain: "vaibhav-b67c8.firebaseapp.com",
+  projectId: "vaibhav-b67c8",
+  storageBucket: "vaibhav-b67c8.appspot.com",
+  messagingSenderId: "711966980434",
+  appId: "1:711966980434:web:7b1912ee714e4b2dcd228b",
+  measurementId: "G-732JHB8E0Y",
+  databaseURL:
+    "https://vaibhav-b67c8-default-rtdb.asia-southeast1.firebasedatabase.app/",
 };
 
 // Initialize Firebase
@@ -54,7 +56,7 @@ import {
   set,
 } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-database.js";
 
-const db = getDatabase();
+const db = getDatabase(app);
 
 //-----------------------------------------The References--------------------------------------------//
 
